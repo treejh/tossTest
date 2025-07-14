@@ -10,7 +10,7 @@ export default function Home() {
   //   const socialLoginForGithubUrl = `http://3.39.9.55:8081/oauth2/authorization/github`;
   const socialLoginForGithubUrl = `https://yetda.kro.kr/oauth2/authorization/github`;
 
-  const redirectAfterLogin = "https://www.yetda.kro.kr/loginsuccess";
+  const redirectAfterLogin = "https://www.yetda.booktri.site/loginsuccess";
 
   return (
     <div className="flex-1 flex justify-center items-center">

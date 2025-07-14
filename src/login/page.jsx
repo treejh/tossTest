@@ -17,7 +17,7 @@ export default function Home() {
       {/* 카카오 로그인 */}
       <a
         href={`${socialLoginForKakaoUrl}?state=${encodeURIComponent(
-          "https://www.yetda.kro.kr/loginsuccess"
+          "https://www.yetda.booktri.site/loginsuccess"
         )}`}
       >
         <span className="font-bold">카카오 로그인</span>

@@ -10,14 +10,14 @@ export default function Home() {
   //   const socialLoginForGithubUrl = `http://3.39.9.55:8081/oauth2/authorization/github`;
   const socialLoginForGithubUrl = `https://yetda.kro.kr/oauth2/authorization/github`;
 
-  const redirectAfterLogin = "http://localhost:3000/loginsuccess";
+  const redirectAfterLogin = "https://www.yetda.kro.kr/loginsuccess";
 
   return (
     <div className="flex-1 flex justify-center items-center">
       {/* 카카오 로그인 */}
       <a
         href={`${socialLoginForKakaoUrl}?state=${encodeURIComponent(
-          "http://localhost:3000/loginsuccess"
+          "https://www.yetda.kro.kr/loginsuccess"
         )}`}
       >
         <span className="font-bold">카카오 로그인</span>
